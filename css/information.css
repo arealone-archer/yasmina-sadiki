@@ -51,6 +51,51 @@ li p {
     margin: 0px;
 }
 
+.content-container a {
+    color: #1A1A1A;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.content-container img {
+    width: 600px;
+    height: auto;
+}
+
+.content-container .text-block {
+    displey: flex;
+    flex: 1;
+    padding: 16px;
+}
+
+.text-block .bio {
+    margin-top: -6px;
+}
+
+.content-container {
+    margin-top: 24px;
+}
+
+.content-container h4 {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 58px;
+}
+
+.content-container p {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+}
 
 @media (max-width: 780px) {
     .header {
